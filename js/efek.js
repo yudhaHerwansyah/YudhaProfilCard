@@ -11,10 +11,10 @@ fotoProfile.addEventListener('mousemove', (event) => {
     const rotateY = ((x / rect.width) - 0.5) * 30;   // Rotasi sumbu Y, max -15 hingga 15 derajat
 
     // Terapkan transformasi 3D
-    fotoProfile.style.transform = `translate(-50%, 95%) perspective(500px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+    fotoProfile.style.transform = `translate(-50%, 78%) perspective(500px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
 });
 
 // Saat kursor keluar dari elemen, kembalikan posisi semula
 fotoProfile.addEventListener('mouseleave', () => {
-    fotoProfile.style.transform = 'translate(-50%, 95%) perspective(500px) rotateX(0) rotateY(0)';
+    fotoProfile.style.transform = 'translate(-50%, 78%) perspective(500px) rotateX(0) rotateY(0)';
 });
