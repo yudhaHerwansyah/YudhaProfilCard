@@ -124,7 +124,7 @@ border-radius: 50%; /* Membuat gambar mengikuti bentuk lingkaran */
         width: 140px;
         height: 140px;
         margin-left: 50%;
-        transform: translate(-50%, 85%);
+        transform: translate(-50%, 80%);
     }
 
     .profile-info h2 {
